@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>sample page</title>
+    <link rel =="stylesheet" href="css/styles.css"/>
+    <style>
+    
+h1 {
+  
+  color: red; 
+}
+  ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #0a0a0a;
+     }
+
+    li {
+        float: left;
+     }
+
+    li a {
+        display: block;
+        color: rgb(255, 69, 0);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      
+    li a:hover {
+        background-color: #8a8a8a;
+     }
+     .active {
+            background-color: #8a8a8a;
+     }
+     main {
+  font-size: 3rem;
+  height: 100vh;
+  width: 125%;
+}
+
+p {
+    font-family: 'arial',sans-serif;
+    font-size: 130%;
+    max-width: 75ch;
+  }
+  
+.col-1  { width: 8.33%; }
+     .col-2  { width: 16.66%; }
+     .col-3  { width: 25%; }
+     .col-4  { width: 33.33%; }
+     .col-5  { width: 41.66%; }
+     .col-6  { width: 50%; }
+     .col-7  { width: 58.33%; }
+     .col-8  { width: 66.66%; }
+     .col-9  { width: 75%; }
+     .col-10 { width: 83.33%; }
+     .col-11 { width: 91.66%; }
+     .col-12 { width: 100%; }
+     @media only screen and
+     (min-device-width : 768px) and
+     (max-device-width : 1024px)  {}
+     
+     .container {   
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        }
+     
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="welcome.html">Welcome</a></li>
+        <li><a class="active "href="info.html">info</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+    
+    
+      <h1>WIP</h1>
+    <p>What is Lourdes University?
+        Lourdes University is a small, private university located in Sylvania, Ohio. Sylvania is just outside of Toledo, and an hour outside of Detroit, giving students access to the city life while being in the comfort of the suburbs. 
+        Find us at <a target="blank"href="https://www.lourdes.edu/">https://www.lourdes.edu/</a></p>
+    <p>What degrees does Lourdes offer?
+        Being a private university, the academics programs are diverse, with small class sizes and approachable professors.  Degrees range from Education to Nursing, and most degrees provide hands-on experience in the field. Check out our list of degrees at <a target="blank"href="https://www.lourdes.edu/academics">https://www.lourdes.edu/academics</a></p>
+    <P>What are some other perks Lourdes students have?
+        Lourdes University is proud to give students access to apartment-style housing, including a private bathroom and a kitchen in each apartment. Lourdes University is also known for it's active list of on-campus clubs, and their connections to the Sisters of St. Francis. 
+        Learn more about housing: <a target="blank"href="https://www.lourdes.edu/campus-life/housing-dining/housing/">https://www.lourdes.edu/campus-life/housing-dining/housing/</a>
+        Learn more about campus life: <a target="blank"href="https://www.lourdes.edu/campus-life/">https://www.lourdes.edu/campus-life/</a> </P>
+    <P>What is special about Lourdes Esports?
+        Lourdes Esports started in 2017 and has been expanding since. Lourdes offers a state of the art Arena with Asus monitors, Corsair keyboards, Steelseries mice, and MSI headsets. We are currently recruiting for all positions of all games and every player is given a scholarship!</P>
+    <p>Scholarship? Whoa!
+        Lourdes Esports is under Athletics, so we get all the perks of student-athletes on campus, on top of scholarships. We have 24/7 access to the recreation center, which houses weight rooms, a cardio room, and our esports arena. We also have access to the athletic trainers on campus! </p>
+    <P>What games does Lourdes Esports house? What conferences are y'all in?
+        We host teams for Overwatch, League of Legends, and Rocket League. All Lourdes Esports teams compete in the Wolverine-Hoosier Athletic Conference (WHAC), while also regularly competing in other conferences. 
+         Competes in NACE, GLEC, and ABC
+         Competes in GLEC 
+         Competes in NACE
+        Teams may compete in other conferences and tournaments. We also go to LAN events!</P>
+    
